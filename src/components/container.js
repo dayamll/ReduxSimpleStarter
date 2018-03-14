@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css'
+import '../style.css'
 
 class Container extends Component {
   render() {
@@ -10,8 +10,9 @@ class Container extends Component {
 
     return (
       <div>
-        <header className='size'><h3>{header}</h3></header>
+        <header><h1>{header}</h1></header>
         <div>{content}</div>
+        <h2>Hobbies</h2>
         <ul>{hobbies}</ul>
       </div>
     )
